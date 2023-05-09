@@ -16,7 +16,7 @@ export default function Thankyou({ handleColorSteps }) {
         using our platform. If you ever need support, please feel free
         to email us at support@loremgaming.com.
       </p>
-      <button>Back To Home</button>
+      <Link to={'/'}><button>Back To Home</button></Link>
     </Thank_youStyled>
   )
 }
