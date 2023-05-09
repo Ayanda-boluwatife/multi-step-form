@@ -1,0 +1,12 @@
+export const MarineBlue = "#02295a";
+export const PurplishBlue = "#473dff";
+export const PastelBlue = "#adbeff";
+export const LightBlue = "#bfe2fd";
+export const StrawberryRed = "#ed3548";
+export const Coolgray = "#9699ab";
+export const LightGray = "#d6d9e6";
+export const Magnolia = "#f0f6ff";
+export const Alabaster = "#fafbff";
+export const White = "#fff";
+export const bgColor = "#EEF5FF";
+export const bgButtonHover = "#164A8A";
