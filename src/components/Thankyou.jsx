@@ -11,9 +11,12 @@ export default function Thankyou({ handleColorSteps }) {
     <Thank_youStyled>
       <img src={icon_thanks} alt="" aria-hidden="true" />
       <h2>Thank you!</h2>
-      <p>Thanks for confirming your subscription! We hope you have fun
+      <p>
+        Thanks for confirming your subscription! We hope you have fun
         using our platform. If you ever need support, please feel free
-        to email us at support@loremgaming.com.</p>
+        to email us at support@loremgaming.com.
+      </p>
+      <button>Back To Home</button>
     </Thank_youStyled>
   )
 }

@@ -30,6 +30,14 @@ const Thank_youStyled = styled.div`
     color: #797979;
   }
 
+  button{
+    background-color: #797979;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    color: ${White};
+  }
+
   @media (max-width: 720px) {
     background-color: ${White};
     padding: 1.25rem;
