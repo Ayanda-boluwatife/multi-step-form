@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import icon_thanks from "../assets/images/icon-thank-you.svg"
 import Thank_youStyled from "../StyledComponents/Thank_youStyled"
+import { Link } from 'react-router-dom';
 
 export default function Thankyou({ handleColorSteps }) {
   useEffect(() => {
