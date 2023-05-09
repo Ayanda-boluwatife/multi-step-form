@@ -113,26 +113,26 @@ export default function Step01({ handleColorSteps }) {
 
           <div className="label_span">
             <label htmlFor="name">Name</label>
-            <span className="message_name">This field is required</span>
+            <span className="message_name">please enter your full-name</span>
           </div>
 
-          <input type="text" value={name} name="name" id="name" placeholder="e.g. Stephen King" onBlur={(e) => setName(e.target.value) } onChange={e => setName(e.target.value) 
+          <input type="text" value={name} name="name" id="name" placeholder="e.g. Ayanda Boluwatife" onBlur={(e) => setName(e.target.value) } onChange={e => setName(e.target.value) 
           } />
 
           <div className="label_span">
             <label htmlFor="email">Email Address</label>
-            <span className="message_email">This field is required</span>
+            <span className="message_email">please enter your email address</span>
           </div>
 
-          <input type="email" value={email} name="email" id="email" placeholder="e.g. stephenking@lorem.com" onChange={(e) => setEmail(e.target.value)} onClick={ (e) => setEmail(e.target.value) 
+          <input type="email" value={email} name="email" id="email" placeholder="e.g. ayandastephen1000@gmail.com" onChange={(e) => setEmail(e.target.value)} onClick={ (e) => setEmail(e.target.value) 
           }  />
 
           <div className="label_span">
             <label htmlFor="phone">Phone Number</label>
-            <span className="message_phone">This field is required</span>
+            <span className="message_phone">please enter your mobile phone number</span>
           </div>
 
-          <input value={phone.replace(/[^0-9.\b(\s)\b\+()-]/, "").replace(/(\..*?)\..*/g)} type="text" name="phone" id="phone" placeholder="e.g. +1 234 567 890" onChange={
+          <input value={phone.replace(/[^0-9.\b(\s)\b\+()-]/, "").replace(/(\..*?)\..*/g)} type="text" name="phone" id="phone" placeholder="e.g. +234 911 581 9983" onChange={
             (e) => {
               setPhone(e.target.value);
             }
